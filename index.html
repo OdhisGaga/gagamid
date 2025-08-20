@@ -1,1 +1,70 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Xgaga Tech Analysis</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+}
+
+.overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 50px 20px;
+      min-height: 100vh;
+}
+
+    h1 {
+      font-size: 3em;
+      color: #00ffcc;
+      margin-bottom: 20px;
+}
+
+    p {
+      font-size: 1.2em;
+      margin-bottom: 40px;
+}
+
+.signal-box {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 1px solid #00ffcc;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px auto;
+      width: 80%;
+      max-width: 600px;
+      transition: transform 0.2s;
+}
+
+.signal-box:hover {
+      transform: scale(1.02);
+      cursor: pointer;
+}
+
+    a {
+      text-decoration: none;
+      color: #00ffcc;
+      font-weight: bold;
+}
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Xgaga Tech Analysis</h1>
+    <p>Tap a currency pair below to view real-time buy/sell signals across all timeframes.</p>
+
+    <div class="signal-box"><a href="/usd-aud">USD/AUD — Tap to view signal</a></div>
+    <div class="signal-box"><a href="/jpy-aud">JPY/AUD — Tap to view signal</a></div>
+    <div class="signal-box"><a href="/eur-usd">EUR/USD — Tap to view signal</a></div>
+    <div class="signal-box"><a href="/gbp-usd">GBP/USD — Tap to view signal</a></div>
+    <div class="signal-box"><a href="/nzd-usd">NZD/USD — Tap to view signal</a></div>
+  </div>
+</body>
+</html>
